@@ -1,6 +1,6 @@
-const screenX = document.querySelector("div").offsetWidth;
-const screenY = document.querySelector("div").offsetHeight;
 const evil = document.querySelector("#evilButton")
+const screenX = document.querySelector("div").offsetWidth - evil.offsetWidth;
+const screenY = document.querySelector("div").offsetHeight - evil.offsetHeight;
 
 let randomX;
 let randomY;
